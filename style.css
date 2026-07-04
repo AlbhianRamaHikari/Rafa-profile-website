@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.profile-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 360px;
+}
+
+.profile-img-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #ddd;
+    margin: 0 auto 15px auto;
+    border: 4px solid #667eea;
+    overflow: hidden;
+}
+
+.profile-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 10px 0 5px;
+}
+
+.title {
+    font-size: 15px;
+    color: #764ba2;
+    font-weight: bold;
+    margin: 0;
+}
+
+.desc {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.info-block {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #555;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.contact li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 10px 0;
+}
+
+.contact svg {
+    width: 20px;
+    height: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.skills {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.skills h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.skill {
+    margin-bottom: 18px;
+}
+
+.skill span {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+.progress {
+    background: #e0e0e0;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.progress div {
+    height: 10px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    width: var(--value);
+}
